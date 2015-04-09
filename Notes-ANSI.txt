@@ -1,0 +1,111 @@
+LESSON: The Basics of the Web and HTML
+TITLE: What is Web
+DESCRIPTION: The web is the interaction among following composite parts: computer+brower, internet, HTTP and servers. The main content transported through web is HTML documents.
+TITLE: What HTML Stands For
+DESCRIPTION: HTML stands for Hypertext Markup Language. HTML documents form the majority of the content on the web. HTML documents contain following parts:
+* Text content (what you see)
+* Markup (what it looks like)
+* Reference to other documents
+* Links to other pages
+TITLE: Tages and Elements
+DESCRIPTION: HTML documents are made of HTML elements. Tags are basic elements used by HTML.
+TITLE: Computers are Stupid
+DESCRIPTION: Computers are stupid because they are sensitive to typos. This makes them very unforgiving since a small mistake by a programmer can cause huge problems in a program.
+TITLE: Inline vs Block Elements
+DESCRIPTION: HTML elements are either inline or block. Block elements form an "invisible box" around the content inside of them.
+LESSON: Creating a Structured Document with HTML
+TITLE: Developer Tools (in the Browser)
+DESCRIPTION: HTML elements are either inline or block. Block elements form an "invisible box" around the content inside of them.
+TITLE: The "tree-like structure" of HTML
+DESCRIPTION: The "tree-like structure" comes from the fact that HTML elements can have other elements inside of them. The relationship between elements is like family tree. My mother had multiple children. So did her mother, and so on... In a browser, this structure shows up as a series of nested boxes. There are boxes inside of boxes inside of boxes, and so on...
+TITLE: The relationship between indented HTML and boxes
+DESCRIPTION: When you read an HTML document as text, you see a wave of changing indentations going up and down the left side of the document. The more indented an element is, the more deeply nested its corresponding "box" is.
+TITLE: Text Editors (for programming)
+DESCRIPTION: When writing code, programmers use special text editors (like Sublime Text for example). These editors make the programmer's life easier. For example, some text editors will automatically generate a closing HTML tag when you write an opening tag.
+LESSON: Adding CSS Style to HTML Structure
+TITLE: Avoiding repetition is important for a variety of reasons.
+DESCRIPTION: Avoiding Errors: When programmers don't avoid repetition, they will often have to do the same thing over and over. This may mean copy and pasting certain style attributes into many HTML elements or rewriting the same code (sometimes with minor differences) many times. This can lead to errors when the programmer decides to make a change to something. If they don't dilligently make that same change everywhere the repeated code appears, problems will arise.
+Consistency: In this web page, I wanted every lesson to look the same. Instead of manually giving each one the same style, I was able to assign each lesson div the same class and then specify the style for that class in only one place! By avoiding repetition, it's now very easy for me to make changes to this style.
+TITLE: CSS - Cascading Style Sheets
+DESCRIPTION: CSS give programmers a way to control the style of related HTML elements. This is done by giving similar HTML elements the same class name and then specifying the style that should apply to that class.
+TITLE: HTML Page Design Process:
+DESCRIPTION: 1.	Looking for natural boxes --) 2. Looking for repeated style and semantic elements --) 3. Writing HTML code --) 4.	Applying styles (From BIGGEST to smallest) --) 5. Fixing things.
+LESSON: Introduction to "Serious" Programming
+TITLE: Computer
+DESCRIPTION: Most machines (like a toaster) are designed to do a few things. Unless you physically alter these machines, they will only be able to do those things.
+Computers are different. A computer can be programmed to do anything we want, as long as we can write a program that specifies a specific sequence of instructions.
+TITLE: Computer Program
+DESCRIPTION: A program is a precise sequence of steps that a computer can follow to do something useful. Web browsers, games, mobile apps, and simple print statements are all examples of computer programs.
+TITLE: Programming Language
+DESCRIPTION: A programming language is what programmers use to tell a computer what to do. Python is one example of a programming language. The main character of programmning language is precise.
+TITLE: Grammar
+DESCRIPTION: Just like human languages have grammars, programming languages do too. A grammar is a specification of what is "correct" and what is "incorrect."
+In languages like English, people can ofent make sense of sentences that aren't technically "correct," but computers aren't smart enough to do this. This means we have to write code that is exactly "correct" according to the Python interpreter, otherwise our code won't run.
+TITLE: Python
+DESCRIPTION: Python is a programming language. When you write Python code and press "Run", a Python Interpreter converts the code you wrote as a set of instructions that the computer itself can understand and execute.
+TITLE: Python Expressions
+DESCRIPTION: A Python "expression" is a legal Python statement, a combination of explicit values, constants, variables, operators, and functions that are interpreted according to the particular rules of precedence and of association for a particular programming language
+LESSON: Variables and Strings
+TITLE: Variables
+DESCRIPTION:  Variable is a storage location paired with an associated symbolic name (an identifier), which contains some known or unknown quantity or information referred to as a value.
+Variable's value can change in different stage of the program, and frequently given long names to make them relatively descriptive of their use, 
+TITLE: Strings
+DESCRIPTION: String is a sequence of characters, either as a literal constant or as some kind of variable. In Python, strings come with quotation mark (single/double/triple quote).
+The character in string can be expressed in (string) [location of character in the string, from 0...N-1], where N is the length of string.
+TITLE: Concatenation and Subsequence
+DESCRIPTION: In Python two strings can be concatenated to one string by using "+" operator. Subsequence is a subset of a string with order.
+TITLE: Method
+DESCRIPTION: Method is a procedure associated with an object class.
+TITLE: Method Find
+DESCRIPTION: A procedure or function in Python to find string within other string. It can be expressed as: (string).find((sub-string)). 
+The method returns the first position of sub-string. It also has another variation: (string).find((sub-string), loc), and method will return the first position of sub-string after loc.
+LESSON: Input-Function-Output
+TITLE: What is Function
+DESCRIPTION: Functions are little self-contained programs that perform a specific task, which you can incorporate into your own, larger programs.
+After you have created a function, you can use it at any time, in any place. This saves you the time and effort of having to retell the computer what to do every time it does a common task, for example getting the user to type something in.
+TITLE: How to Make a Function
+DESCRIPTION: You can define a function in Python using: DEF function_name(parameters):. Inside function definition, a RETURN statement is usaually required as output of function.
+TITLE: Why Functions Are Important
+DESCRIPTION: In large program, some operation may repeat multiple times. Defining and using a function can help to reduce repetitive work and improve coding efficiency.
+LESSON: Decision and Repetition: If and While
+TITLE: Making Decision
+DESCRIPTION: Boolean values coming out of expression ")", "(", "==" etc can help decision making to control the flow of coding.
+TITLE: If Statement
+DESCRIPTION: If statement can control which code get executed at what time. It has three types of variation: 1) If 2) If-If 3) If-Else
+TITLE: While Loops
+DESCRIPTION: While Loops can loop the code that performs the same task many times, thus reduce repetitions. Break statement can be combined with If statement to help jump out of While Loops.
+LESSON: Debugging
+TITLE: Errors Can Happen
+DESCRIPTION: Errors can happen in the code. Process to find and fix errors is called debugging.
+TITLE: Debugging Strategy
+DESCRIPTION: There are five debugging strategies introduced: 1) Examine error messages when programs crash. The last line of Python Tracebacks will tell you what went wrong. Reading backwards from there will tell you more about where the problem occurred.
+2) Work from example code. If your modified code doesn't work, comment it out and do step-by-step modifications to the example code until it does what you want. 
+3) Make sure examples work. Just because you find example code doesn't mean it will work in your system. Check the example code you're using to make sure it behaves the way you expect.
+4) Check (print) intermediate results. When your code doesn't crash, but doesn't behave as expected, add print statements to your program to see where in the code things stop behaving correctly.
+5) Keep and compare old versions. When you have a working version of your code, save it before you add to the code. This will give you something to go back to if you introduce too many new bugs.
+LESSON: Structured Data: List and For Loops
+TITLE: List
+DESCRIPTION: List is a more powerful and general type of structured data. Compared to a string where all of the elements must be characters, in a list the elements can be anything you want such as characters, strings, numbers or even other lists!
+TITLE: Nested Lists
+DESCRIPTION: So far, all of the elements in our lists have been of the same type: strings, numbers, etc. However, there are no restrictions on the types of elements in a list. Elements of a list can be any type you want, you can also mix and match different types of elements in a list.
+TITLE: MUTATION
+DESCRIPTION: Mutation means changing the value of an object. Lists support mutation. This is the second main difference between strings and lists.
+TITLE: Alias
+DESCRIPTION: It is called aliasing when there are two names that refer to the same object. Aliasing is very useful, but also can be very confusing since one mutation can impact many variables. If something happens that changes the state of the object, it affects the state of the object for all names that refer to that object.
+TITLE: Strings are Immutable
+DESCRIPTION: Note that we cannot mutate strings, since they are immutable objects. Try mutating a string in the interpreter: #!highlight python s = 'Hello' s[0] = 'Y' 'str' object does not support item assignment.
+TITLE: Mutable and Immutable Objects
+DESCRIPTION: The key difference between mutable and immutable objects, is that once an object is mutable, you have to worry about other variables that might refer to the same object. You can change the value of that object and it affects not just variable you think you changed, but other variables that refer to the same object as well.
+TITLE: List Operations
+DESCRIPTION: There are many built-in operations on lists. Here are a few of the most useful ones here: 1) Append - The append method adds a new element to the end of a list. The append method mutates the list that it is invoked on, it does not create a new list. The syntax for the append method is: (''list'').append((''element''))
+2) Concatenation - The + operator can be used with lists and is very similar to how it is used to concatenate strings. It produces a new list, it does not mutate either of the input lists. (''list'') + (''list'') 
+3) Length - The len operator can be used to find out the length of an object. The len operator works for many things other than lists, it works for any object that is a collection of things including strings. The output from len is the number of elements in its input.
+TITLE: For Loops
+DESCRIPTION: In Python there is a more convenient way to loop through the elements of a list: the for loop. The syntax looks like this: for (''name'') in (''list''): (''block''). The loop goes through each element of the list in turn, assigning that element to the (name) and evaluating the (block).
+TITLE: Index
+DESCRIPTION: There are many other ways to define find_element. A built-in list operation that we have not yet introduced that makes it easier to write find_element is the index method: (''list'').index((''value'')) to give (''position'') or error 
+The index method is invoked on a list by passing in a value, and the output is the first position where that value sits in the list. If the list that does not contain any occurrences of the value you pass in, index produces an error (this is different from the find method for strings which we used in Unit 1, that returns a -1 when the target string is not found).
+TITLE: In
+DESCRIPTION: Test if the element is anywhere in the list. We have already seen in used in the for loop, however outside of a for loop header it means something different: (''value'') in (''list'') -) (''Boolean''). The output is True if the list contains an element matching value, and False if it does not.
+TITLE: Not In
+DESCRIPTION: Similarly, you can use not in, which has the opposite meaning of in: (''value'') not in (''list''). If the value is not in the list the result of (value) not in (list) is True, and if the (value) is in the (list) than the result is False.
