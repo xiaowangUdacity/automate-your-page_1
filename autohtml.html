@@ -1,0 +1,360 @@
+
+<!DOCTYPE html>
+<html>
+    <head> 
+	<meta charset = "utf-8">
+	<meta name = "viewport" content="width=device-width, initial-scale=1"> 
+	<title>Lesson Notes</title>
+	<link rel="stylesheet" href = "css/bootstrap.css">
+	<link href="css/main.css" rel="stylesheet" type = "text/css">
+    </head>
+    <body>
+        <div class="container" style = "outline: 5 px solid red;">
+            <div class="row margin-bottom" style="display:flex; margin-bottom: 30px;">
+                <div class="col-md-4"> <img class="img-responsive" src="images/logo.png" alt="log"></div>
+                <div class="col-md-8 text-right"><H1 style="margin-bottom:30px;font-weight:550;">Introduction to Programming</H1><H3>Class Notes</H3></div>
+            </div>
+            <div class="row" style="display:flex;outline:5px solid red;margin-left:15px;margin-right:15px;margin-bottom:15px">
+                <div class="col-md-4 text-center"><H3 style="margin-bottom:30px;font-weight:550;"> The Basics of the Web and HTML
+
+                                                  </H3>
+                </div>
+                <div class="col-md-8 text-left">
+                    <H3 class="subtitle"> What is Web
+
+                    </H3>
+                    <H4 class="textfile">The web is the interaction among following composite parts: computer+brower, internet, HTTP and servers. The main content transported through web is HTML documents.
+
+                    </H4>
+                    <H3 class="subtitle"> What HTML Stands For
+
+                    </H3>
+                    <H4 class="textfile">HTML stands for Hypertext Markup Language. HTML documents form the majority of the content on the web. HTML documents contain following parts:
+* Text content (what you see)
+* Markup (what it looks like)
+* Reference to other documents
+* Links to other pages
+
+                    </H4>
+                    <H3 class="subtitle"> Tages and Elements
+
+                    </H3>
+                    <H4 class="textfile">HTML documents are made of HTML elements. Tags are basic elements used by HTML.
+
+                    </H4>
+                    <H3 class="subtitle"> Computers are Stupid
+
+                    </H3>
+                    <H4 class="textfile">Computers are stupid because they are sensitive to typos. This makes them very unforgiving since a small mistake by a programmer can cause huge problems in a program.
+
+                    </H4>
+                    <H3 class="subtitle"> Inline vs Block Elements
+
+                    </H3>
+                    <H4 class="textfile">HTML elements are either inline or block. Block elements form an "invisible box" around the content inside of them.
+
+                    </H4>
+                </div>
+            </div>
+            <div class="row" style="display:flex;outline:5px solid red;margin-left:15px;margin-right:15px;margin-bottom:15px">
+                <div class="col-md-4 text-center"><H3 style="margin-bottom:30px;font-weight:550;"> Creating a Structured Document with HTML
+
+                                                  </H3>
+                </div>
+                <div class="col-md-8 text-left">
+                    <H3 class="subtitle"> Developer Tools (in the Browser)
+
+                    </H3>
+                    <H4 class="textfile">HTML elements are either inline or block. Block elements form an "invisible box" around the content inside of them.
+
+                    </H4>
+                    <H3 class="subtitle"> The "tree-like structure" of HTML
+
+                    </H3>
+                    <H4 class="textfile">The "tree-like structure" comes from the fact that HTML elements can have other elements inside of them. The relationship between elements is like family tree. My mother had multiple children. So did her mother, and so on... In a browser, this structure shows up as a series of nested boxes. There are boxes inside of boxes inside of boxes, and so on...
+
+                    </H4>
+                    <H3 class="subtitle"> The relationship between indented HTML and boxes
+
+                    </H3>
+                    <H4 class="textfile">When you read an HTML document as text, you see a wave of changing indentations going up and down the left side of the document. The more indented an element is, the more deeply nested its corresponding "box" is.
+
+                    </H4>
+                    <H3 class="subtitle"> Text Editors (for programming)
+
+                    </H3>
+                    <H4 class="textfile">When writing code, programmers use special text editors (like Sublime Text for example). These editors make the programmer's life easier. For example, some text editors will automatically generate a closing HTML tag when you write an opening tag.
+
+                    </H4>
+                </div>
+            </div>
+            <div class="row" style="display:flex;outline:5px solid red;margin-left:15px;margin-right:15px;margin-bottom:15px">
+                <div class="col-md-4 text-center"><H3 style="margin-bottom:30px;font-weight:550;"> Adding CSS Style to HTML Structure
+
+                                                  </H3>
+                </div>
+                <div class="col-md-8 text-left">
+                    <H3 class="subtitle"> Avoiding repetition is important for a variety of reasons.
+
+                    </H3>
+                    <H4 class="textfile">Avoiding Errors: When programmers don't avoid repetition, they will often have to do the same thing over and over. This may mean copy and pasting certain style attributes into many HTML elements or rewriting the same code (sometimes with minor differences) many times. This can lead to errors when the programmer decides to make a change to something. If they don't dilligently make that same change everywhere the repeated code appears, problems will arise.
+Consistency: In this web page, I wanted every lesson to look the same. Instead of manually giving each one the same style, I was able to assign each lesson div the same class and then specify the style for that class in only one place! By avoiding repetition, it's now very easy for me to make changes to this style.
+
+                    </H4>
+                    <H3 class="subtitle"> CSS - Cascading Style Sheets
+
+                    </H3>
+                    <H4 class="textfile">CSS give programmers a way to control the style of related HTML elements. This is done by giving similar HTML elements the same class name and then specifying the style that should apply to that class.
+
+                    </H4>
+                    <H3 class="subtitle"> HTML Page Design Process:
+
+                    </H3>
+                    <H4 class="textfile">1.	Looking for natural boxes --) 2. Looking for repeated style and semantic elements --) 3. Writing HTML code --) 4.	Applying styles (From BIGGEST to smallest) --) 5. Fixing things.
+
+                    </H4>
+                </div>
+            </div>
+            <div class="row" style="display:flex;outline:5px solid red;margin-left:15px;margin-right:15px;margin-bottom:15px">
+                <div class="col-md-4 text-center"><H3 style="margin-bottom:30px;font-weight:550;"> Introduction to "Serious" Programming
+
+                                                  </H3>
+                </div>
+                <div class="col-md-8 text-left">
+                    <H3 class="subtitle"> Computer
+
+                    </H3>
+                    <H4 class="textfile">Most machines (like a toaster) are designed to do a few things. Unless you physically alter these machines, they will only be able to do those things.
+Computers are different. A computer can be programmed to do anything we want, as long as we can write a program that specifies a specific sequence of instructions.
+
+                    </H4>
+                    <H3 class="subtitle"> Computer Program
+
+                    </H3>
+                    <H4 class="textfile">A program is a precise sequence of steps that a computer can follow to do something useful. Web browsers, games, mobile apps, and simple print statements are all examples of computer programs.
+
+                    </H4>
+                    <H3 class="subtitle"> Programming Language
+
+                    </H3>
+                    <H4 class="textfile">A programming language is what programmers use to tell a computer what to do. Python is one example of a programming language. The main character of programmning language is precise.
+
+                    </H4>
+                    <H3 class="subtitle"> Grammar
+
+                    </H3>
+                    <H4 class="textfile">Just like human languages have grammars, programming languages do too. A grammar is a specification of what is "correct" and what is "incorrect."
+In languages like English, people can ofent make sense of sentences that aren't technically "correct," but computers aren't smart enough to do this. This means we have to write code that is exactly "correct" according to the Python interpreter, otherwise our code won't run.
+
+                    </H4>
+                    <H3 class="subtitle"> Python
+
+                    </H3>
+                    <H4 class="textfile">Python is a programming language. When you write Python code and press "Run", a Python Interpreter converts the code you wrote as a set of instructions that the computer itself can understand and execute.
+
+                    </H4>
+                    <H3 class="subtitle"> Python Expressions
+
+                    </H3>
+                    <H4 class="textfile">A Python "expression" is a legal Python statement, a combination of explicit values, constants, variables, operators, and functions that are interpreted according to the particular rules of precedence and of association for a particular programming language
+
+                    </H4>
+                </div>
+            </div>
+            <div class="row" style="display:flex;outline:5px solid red;margin-left:15px;margin-right:15px;margin-bottom:15px">
+                <div class="col-md-4 text-center"><H3 style="margin-bottom:30px;font-weight:550;"> Variables and Strings
+
+                                                  </H3>
+                </div>
+                <div class="col-md-8 text-left">
+                    <H3 class="subtitle"> Variables
+
+                    </H3>
+                    <H4 class="textfile"> Variable is a storage location paired with an associated symbolic name (an identifier), which contains some known or unknown quantity or information referred to as a value.
+Variable's value can change in different stage of the program, and frequently given long names to make them relatively descriptive of their use, 
+
+                    </H4>
+                    <H3 class="subtitle"> Strings
+
+                    </H3>
+                    <H4 class="textfile">String is a sequence of characters, either as a literal constant or as some kind of variable. In Python, strings come with quotation mark (single/double/triple quote).
+The character in string can be expressed in (string) [location of character in the string, from 0...N-1], where N is the length of string.
+
+                    </H4>
+                    <H3 class="subtitle"> Concatenation and Subsequence
+
+                    </H3>
+                    <H4 class="textfile">In Python two strings can be concatenated to one string by using "+" operator. Subsequence is a subset of a string with order.
+
+                    </H4>
+                    <H3 class="subtitle"> Method
+
+                    </H3>
+                    <H4 class="textfile">Method is a procedure associated with an object class.
+
+                    </H4>
+                    <H3 class="subtitle"> Method Find
+
+                    </H3>
+                    <H4 class="textfile">A procedure or function in Python to find string within other string. It can be expressed as: (string).find((sub-string)). 
+The method returns the first position of sub-string. It also has another variation: (string).find((sub-string), loc), and method will return the first position of sub-string after loc.
+
+                    </H4>
+                </div>
+            </div>
+            <div class="row" style="display:flex;outline:5px solid red;margin-left:15px;margin-right:15px;margin-bottom:15px">
+                <div class="col-md-4 text-center"><H3 style="margin-bottom:30px;font-weight:550;"> Input-Function-Output
+
+                                                  </H3>
+                </div>
+                <div class="col-md-8 text-left">
+                    <H3 class="subtitle"> What is Function
+
+                    </H3>
+                    <H4 class="textfile">Functions are little self-contained programs that perform a specific task, which you can incorporate into your own, larger programs.
+After you have created a function, you can use it at any time, in any place. This saves you the time and effort of having to retell the computer what to do every time it does a common task, for example getting the user to type something in.
+
+                    </H4>
+                    <H3 class="subtitle"> How to Make a Function
+
+                    </H3>
+                    <H4 class="textfile">You can define a function in Python using: DEF function_name(parameters):. Inside function definition, a RETURN statement is usaually required as output of function.
+
+                    </H4>
+                    <H3 class="subtitle"> Why Functions Are Important
+
+                    </H3>
+                    <H4 class="textfile">In large program, some operation may repeat multiple times. Defining and using a function can help to reduce repetitive work and improve coding efficiency.
+
+                    </H4>
+                </div>
+            </div>
+            <div class="row" style="display:flex;outline:5px solid red;margin-left:15px;margin-right:15px;margin-bottom:15px">
+                <div class="col-md-4 text-center"><H3 style="margin-bottom:30px;font-weight:550;"> Decision and Repetition: If and While
+
+                                                  </H3>
+                </div>
+                <div class="col-md-8 text-left">
+                    <H3 class="subtitle"> Making Decision
+
+                    </H3>
+                    <H4 class="textfile">Boolean values coming out of expression ")", "(", "==" etc can help decision making to control the flow of coding.
+
+                    </H4>
+                    <H3 class="subtitle"> If Statement
+
+                    </H3>
+                    <H4 class="textfile">If statement can control which code get executed at what time. It has three types of variation: 1) If 2) If-If 3) If-Else
+
+                    </H4>
+                    <H3 class="subtitle"> While Loops
+
+                    </H3>
+                    <H4 class="textfile">While Loops can loop the code that performs the same task many times, thus reduce repetitions. Break statement can be combined with If statement to help jump out of While Loops.
+
+                    </H4>
+                </div>
+            </div>
+            <div class="row" style="display:flex;outline:5px solid red;margin-left:15px;margin-right:15px;margin-bottom:15px">
+                <div class="col-md-4 text-center"><H3 style="margin-bottom:30px;font-weight:550;"> Debugging
+
+                                                  </H3>
+                </div>
+                <div class="col-md-8 text-left">
+                    <H3 class="subtitle"> Errors Can Happen
+
+                    </H3>
+                    <H4 class="textfile">Errors can happen in the code. Process to find and fix errors is called debugging.
+
+                    </H4>
+                    <H3 class="subtitle"> Debugging Strategy
+
+                    </H3>
+                    <H4 class="textfile">There are five debugging strategies introduced: 1) Examine error messages when programs crash. The last line of Python Tracebacks will tell you what went wrong. Reading backwards from there will tell you more about where the problem occurred.
+2) Work from example code. If your modified code doesn't work, comment it out and do step-by-step modifications to the example code until it does what you want. 
+3) Make sure examples work. Just because you find example code doesn't mean it will work in your system. Check the example code you're using to make sure it behaves the way you expect.
+4) Check (print) intermediate results. When your code doesn't crash, but doesn't behave as expected, add print statements to your program to see where in the code things stop behaving correctly.
+5) Keep and compare old versions. When you have a working version of your code, save it before you add to the code. This will give you something to go back to if you introduce too many new bugs.
+
+                    </H4>
+                </div>
+            </div>
+            <div class="row" style="display:flex;outline:5px solid red;margin-left:15px;margin-right:15px;margin-bottom:15px">
+                <div class="col-md-4 text-center"><H3 style="margin-bottom:30px;font-weight:550;"> Structured Data: List and For Loops
+
+                                                  </H3>
+                </div>
+                <div class="col-md-8 text-left">
+                    <H3 class="subtitle"> List
+
+                    </H3>
+                    <H4 class="textfile">List is a more powerful and general type of structured data. Compared to a string where all of the elements must be characters, in a list the elements can be anything you want such as characters, strings, numbers or even other lists!
+
+                    </H4>
+                    <H3 class="subtitle"> Nested Lists
+
+                    </H3>
+                    <H4 class="textfile">So far, all of the elements in our lists have been of the same type: strings, numbers, etc. However, there are no restrictions on the types of elements in a list. Elements of a list can be any type you want, you can also mix and match different types of elements in a list.
+
+                    </H4>
+                    <H3 class="subtitle"> MUTATION
+
+                    </H3>
+                    <H4 class="textfile">Mutation means changing the value of an object. Lists support mutation. This is the second main difference between strings and lists.
+
+                    </H4>
+                    <H3 class="subtitle"> Alias
+
+                    </H3>
+                    <H4 class="textfile">It is called aliasing when there are two names that refer to the same object. Aliasing is very useful, but also can be very confusing since one mutation can impact many variables. If something happens that changes the state of the object, it affects the state of the object for all names that refer to that object.
+
+                    </H4>
+                    <H3 class="subtitle"> Strings are Immutable
+
+                    </H3>
+                    <H4 class="textfile">Note that we cannot mutate strings, since they are immutable objects. Try mutating a string in the interpreter: #!highlight python s = 'Hello' s[0] = 'Y' 'str' object does not support item assignment.
+
+                    </H4>
+                    <H3 class="subtitle"> Mutable and Immutable Objects
+
+                    </H3>
+                    <H4 class="textfile">The key difference between mutable and immutable objects, is that once an object is mutable, you have to worry about other variables that might refer to the same object. You can change the value of that object and it affects not just variable you think you changed, but other variables that refer to the same object as well.
+
+                    </H4>
+                    <H3 class="subtitle"> List Operations
+
+                    </H3>
+                    <H4 class="textfile">There are many built-in operations on lists. Here are a few of the most useful ones here: 1) Append - The append method adds a new element to the end of a list. The append method mutates the list that it is invoked on, it does not create a new list. The syntax for the append method is: (''list'').append((''element''))
+2) Concatenation - The + operator can be used with lists and is very similar to how it is used to concatenate strings. It produces a new list, it does not mutate either of the input lists. (''list'') + (''list'') 
+3) Length - The len operator can be used to find out the length of an object. The len operator works for many things other than lists, it works for any object that is a collection of things including strings. The output from len is the number of elements in its input.
+
+                    </H4>
+                    <H3 class="subtitle"> For Loops
+
+                    </H3>
+                    <H4 class="textfile">In Python there is a more convenient way to loop through the elements of a list: the for loop. The syntax looks like this: for (''name'') in (''list''): (''block''). The loop goes through each element of the list in turn, assigning that element to the (name) and evaluating the (block).
+
+                    </H4>
+                    <H3 class="subtitle"> Index
+
+                    </H3>
+                    <H4 class="textfile">There are many other ways to define find_element. A built-in list operation that we have not yet introduced that makes it easier to write find_element is the index method: (''list'').index((''value'')) to give (''position'') or error 
+The index method is invoked on a list by passing in a value, and the output is the first position where that value sits in the list. If the list that does not contain any occurrences of the value you pass in, index produces an error (this is different from the find method for strings which we used in Unit 1, that returns a -1 when the target string is not found).
+
+                    </H4>
+                    <H3 class="subtitle"> In
+
+                    </H3>
+                    <H4 class="textfile">Test if the element is anywhere in the list. We have already seen in used in the for loop, however outside of a for loop header it means something different: (''value'') in (''list'') -) (''Boolean''). The output is True if the list contains an element matching value, and False if it does not.
+
+                    </H4>
+                    <H3 class="subtitle"> Not In
+
+                    </H3>
+                    <H4 class="textfile">Similarly, you can use not in, which has the opposite meaning of in: (''value'') not in (''list''). If the value is not in the list the result of (value) not in (list) is True, and if the (value) is in the (list) than the result is False.
+                    </H4>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
